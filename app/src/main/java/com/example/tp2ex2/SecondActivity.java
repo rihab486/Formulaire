@@ -75,10 +75,6 @@ public class SecondActivity extends AppCompatActivity {
         });
 
         /* Exercice 2 */
-
-
-
-
         Bundle extras=getIntent().getExtras();
         if(extras!=null)
         {

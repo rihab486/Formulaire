@@ -23,10 +23,6 @@ public class MainActivity extends AppCompatActivity {
         b=findViewById(R.id.btn);
         q=findViewById(R.id.quit);
         e2=findViewById(R.id.edt2);
-
-
-
-
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(i);*/
                 /* Exercice 2 */
-
                 if(e.getText().toString().equals("admin") && e2.getText().toString().equals("admin"))
                 {
                     Intent i=new Intent(MainActivity.this,SecondActivity.class);

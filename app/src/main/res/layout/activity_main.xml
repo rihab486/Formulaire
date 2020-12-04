@@ -25,9 +25,10 @@
         android:layout_width="match_parent"
         android:id="@+id/btn" android:text="Ok"/>
 
-    <Button android:layout_height="wrap_content"
-        android:layout_width="match_parent"
+    <Button
         android:id="@+id/quit"
-        android:text="Quitter"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quitter" />
 
 </LinearLayout>
